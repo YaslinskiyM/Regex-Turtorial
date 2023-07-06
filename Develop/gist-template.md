@@ -1,6 +1,6 @@
 # Regex Tutorial for Email
+To match email addresses, we can use a regular expression (regex) that consists of three parts: the local part, the domain part, and the top-level domain (TLD) part. The local part can have alphanumeric characters, periods, underscores, hyphens, and plus signs. It cannot start or end with a period and cannot have consecutive periods. The domain part can have alphanumeric characters and hyphens, separated by periods. The TLD part represents the top-level domain and consists of two to six alphabetic characters. By combining these patterns, we can create a regex to validate email addresses:![Alt text](image.png)
 
-Introductory paragraph (replace this with your text)
 
 ## Summary
 
@@ -10,15 +10,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -28,12 +23,9 @@ The anchors used in the regex expression for matching emails are (^), which decl
 ### Quantifiers
 The quantifiers in this expression are (+) and ({2,6}). The (+) connects the users email name, the email service, and the (.com). And ({2,6}) restricts the match range of the string to be between 2 and 6 characters long from the set of case sensitive letters(a-z).
 
-### OR Operator
-
 ### Character Classes
 The character class in this expression, (\d), means that a single character matches a digit between 0-9.
 
-### Flags
 
 ### Grouping and Capturing
 Referring to the example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, capturing group #1, ([a-z0-9_\.-]+), matches the user email name. Capturing group #2, ([\da-z\.-]+),matches the email service. And capturing group #3 is ([a-z\.]{2,6}) which matches the .com.
@@ -44,12 +36,7 @@ Bracket expressions for email validation include the character sets of ([a-z0-9_
 ### Greedy and Lazy Match
 Because the expression includes the (+) and ({}) Quantifiers, it will match as many times as possible.
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
+https://github.com/YaslinskiyM
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
