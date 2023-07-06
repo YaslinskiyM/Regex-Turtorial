@@ -6,7 +6,7 @@ This is a tutorial that explains how a specific regular expression, or regex, fu
 ## Table of Contents
 
 - [UserStory](#UserStory)
-- [AcceptanceCriteria](#Acceptance Criteria)
+- [AcceptanceCriteria](#AcceptanceCriteria)
 - [Credits](#credits)
 - [License](#license)
 - [Contact](#Contact)
