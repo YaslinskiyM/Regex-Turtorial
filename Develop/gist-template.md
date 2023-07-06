@@ -1,10 +1,8 @@
 # Regex Tutorial for Email
-To match email addresses, we can use a regular expression (regex) that consists of three parts: the local part, the domain part, and the top-level domain (TLD) part. The local part can have alphanumeric characters, periods, underscores, hyphens, and plus signs. It cannot start or end with a period and cannot have consecutive periods. The domain part can have alphanumeric characters and hyphens, separated by periods. The TLD part represents the top-level domain and consists of two to six alphabetic characters. By combining these patterns, we can create a regex to validate email addresses:![Alt text](image.png)
-
+A regex, or regular expression, is a method used in JavaScript to check if a string fullfills the requirements of validation, by using a series of special characters to define a search pattern.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+To match email addresses, we can use a regular expression (regex) that consists of three parts: the local part, the domain part, and the top-level domain (TLD) part. The local part can have alphanumeric characters, periods, underscores, hyphens, and plus signs. It cannot start or end with a period and cannot have consecutive periods. The domain part can have alphanumeric characters and hyphens, separated by periods. The TLD part represents the top-level domain and consists of two to six alphabetic characters. By combining these patterns, we can create a regex to validate email addresses:![Alt text](image.png)
 
 ## Table of Contents
 
