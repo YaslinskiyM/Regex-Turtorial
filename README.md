@@ -38,5 +38,4 @@ ${renderLicenseLink (data.license)}
 ${renderLicenseBadge (data.license)}
 
 ## Contact
-mariayaslinskiy@gmail.com
 YaslinskiyM Github
